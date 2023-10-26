@@ -6,3 +6,27 @@
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 2%;
+}
+
+.top-level-wording {
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+}
+
