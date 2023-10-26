@@ -15,6 +15,20 @@ a {
     color: white;
 }
 
+fieldset {
+    border: none;
+}
+
+input {
+    margin: 10px;
+    background-color: inherit;
+    color: white;
+}
+
+label {
+    margin-left: 10px;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -55,10 +69,16 @@ a {
 .top-level-wording {
     display: flex;
     flex-direction: column;
-    margin: 2px;
+    margin: 30px 50px;
+    line-height: 1.75;
+}
+
+.italic-word {
+    font-style: italic;
 }
 
 .sign-up-form {
     display: flex;
     flex-direction: column;
+    margin: 20px;
 }
