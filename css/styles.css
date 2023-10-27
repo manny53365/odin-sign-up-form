@@ -62,15 +62,27 @@ button {
     top: 100px;
 }
 
+.banner-content {
+    position: absolute;
+    top: 125px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
 .banner-img {
     opacity: 1;
     width: 100px;
     height: 100px;
-    position: absolute;
-    top: 125px;
-    left: 25px;
-    z-index: 2;
 }
+
+.banner-text {
+    color: white;
+    margin-left: 20px;
+    font-size: 1.25rem;
+}
+
 
 .left-image {
     width: 100%;
