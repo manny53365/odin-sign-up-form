@@ -23,6 +23,7 @@ input {
     margin: 10px;
     background-color: inherit;
     color: white;
+    font-size: 20px;
 }
 
 label {
@@ -94,7 +95,7 @@ button {
 .input-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .sign-up-link {
