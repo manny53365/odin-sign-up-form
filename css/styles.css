@@ -31,6 +31,10 @@ label {
 
 button {
     margin: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+    cursor: pointer;
 }
 
 .container {
@@ -85,6 +89,12 @@ button {
     display: flex;
     flex-direction: column;
     margin: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .sign-up-link {

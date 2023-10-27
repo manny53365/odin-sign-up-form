@@ -27,18 +27,26 @@
                 <form action="#" method="post">
                     <fieldset class="sign-up-form">
                         <legend>Lets do this!</legend>
-                        <label for="fName">Enter your first name:</label>
-                        <input type="text" name="fName">
-                        <label for="lName">Enter your last name:</label>
-                        <input type="text" name="lName">
-                        <label for="mobileNum">Enter your phone number:</label>
-                        <input type="tel" name="mobileNum" maxlength="12">
-                        <label for="email">Enter your email address:</label>
-                        <input type="email" name="email">
-                        <label for="pWord">Create your password:</label>
-                        <input type="password" name="password">
-                        <label for="confirmPW">Confirm your password:</label>
-                        <input type="password" name="confirmPW">
+                        <div class="input-container">
+                            <label for="fName">Enter your first name:</label>
+                            <input type="text" name="fName">
+                            <label for="lName">Enter your last name:</label>
+                            <input type="text" name="lName">
+                        </div>
+
+                        <div class="input-container">
+                            <label for="mobileNum">Enter your phone number:</label>
+                            <input type="tel" name="mobileNum" maxlength="12">
+                            <label for="email">Enter your email address:</label>
+                            <input type="email" name="email">
+                        </div>
+
+                        <div class="input-container">
+                            <label for="pWord">Create your password:</label>
+                            <input type="password" name="password">
+                            <label for="confirmPW">Confirm your password:</label>
+                            <input type="password" name="confirmPW">
+                        </div>
                         <button type="submit">Sign up</button>
                     </fieldset>
                 </form>
